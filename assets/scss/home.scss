@@ -168,6 +168,7 @@ section {
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
+  justify-content: space-around;
 }
 
 .card {
@@ -175,12 +176,16 @@ section {
   transition: 0.3s;
   margin: 20px;
   border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .card img {
   width: 300px;
   height: 150px;
   object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .card-body {
