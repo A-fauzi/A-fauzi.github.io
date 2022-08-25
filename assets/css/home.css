@@ -141,7 +141,8 @@ section {
 
 .card img:hover {
   width: 400px;
-  height: 250px; }
+  height: 250px;
+  cursor: pointer; }
 
 .card-body {
   padding: 2px 16px; }
